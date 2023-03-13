@@ -13,11 +13,11 @@ const xxxl = breakpoints['2xl']
 
 <template>
   <div class="btn-group flex justify-center p-8">
-    <button class="btn" :class="{ 'btn-warning': sm }">sm</button>
-    <button class="btn" :class="{ 'btn-warning': md }">md</button>
-    <button class="btn" :class="{ 'btn-warning': lg }">lg</button>
-    <button class="btn" :class="{ 'btn-warning': xl }">xl</button>
-    <button class="btn" :class="{ 'btn-warning': xxl }">xxl</button>
-    <button class="btn" :class="{ 'btn-warning': xxxl }">xxxl</button>
+    <Button label="sm" :class="{ 'btn-warning': sm }" />
+    <Button label="md" :class="{ 'btn-warning': md }" />
+    <Button label="lg" :class="{ 'btn-warning': lg }" />
+    <Button label="xl" :class="{ 'btn-warning': xl }" />
+    <Button label="xxl" :class="{ 'btn-warning': xxl }" />
+    <Button label="xxxl" :class="{ 'btn-warning': xxxl }" />
   </div>
 </template>
