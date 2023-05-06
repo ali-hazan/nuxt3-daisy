@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@vueuse/nuxt',
     '@nuxtjs/i18n',
+    '@formkit/nuxt',
   ],
   css: ['swiper/css'],
   build: {
@@ -34,4 +35,7 @@ export default defineNuxtConfig({
     },
   },
   typescript: { strict: true },
+  formkit: {
+    configFile: './formkit.config.ts',
+  },
 })

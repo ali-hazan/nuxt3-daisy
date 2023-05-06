@@ -20,6 +20,9 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@formkit/icons": "^0.16.5",
+    "@formkit/nuxt": "^0.16.5",
+    "@formkit/themes": "^0.16.5",
     "pinia": "^2.0.24",
     "swiper": "^8.4.5"
   },
